@@ -1,0 +1,134 @@
+/* BASIC SETTINGS */
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background: #f7f9fc;
+}
+
+/* HEADER */
+header {
+    background: linear-gradient(135deg, #4e54c8, #8f94fb);
+    text-align: center;
+    padding: 40px 20px;
+    color: white;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+}
+
+header h1 {
+    font-size: 40px;
+    margin: 0;
+}
+
+header p {
+    margin-top: 5px;
+    font-size: 18px;
+}
+
+/* NAVBAR */
+nav {
+    background: #ffffff;
+    padding: 12px;
+    text-align: center;
+    box-shadow: 0 3px 8px rgba(0,0,0,0.1);
+    position: sticky;
+    top: 0;
+}
+
+nav a {
+    margin: 0 18px;
+    text-decoration: none;
+    color: #4e54c8;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    color: #8f94fb;
+    text-shadow: 0px 0px 8px #b1b3ff;
+}
+
+/* HERO SECTION */
+.hero {
+    text-align: center;
+    padding: 70px 20px;
+    background: linear-gradient(135deg, #8f94fb20, #4e54c820);
+}
+
+.hero h2 {
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 18px;
+    color: #444;
+}
+
+.join-btn {
+    background: #4e54c8;
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    margin-top: 15px;
+    font-size: 18px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.join-btn:hover {
+    background: #8f94fb;
+    box-shadow: 0 0 12px #8f94fb;
+}
+
+/* SECTIONS */
+.box-section {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.box-section h2 {
+    color: #4e54c8;
+    margin-bottom: 20px;
+}
+
+/* CARDS */
+.card-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 18px;
+}
+
+.card {
+    width: 220px;
+    padding: 20px;
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.07);
+    background: #f0f1ff;
+    box-shadow: 0 6px 14px rgba(0,0,0,0.2);
+}
+
+/* CONTACT */
+.contact {
+    padding: 30px;
+    background: #ffffff;
+    text-align: center;
+    border-top: 4px solid #4e54c8;
+}
+
+/* FOOTER */
+footer {
+    background: #4e54c8;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
+}
